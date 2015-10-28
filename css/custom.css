@@ -29,6 +29,32 @@
 
 .alert {
     opacity: 0.9;
+    margin-bottom: 50px !important;
+}
+
+.large-text {
+  font-size: 120px !important;
+}
+
+div.concept-text > p {
+  font-size: 50px;
+  color: red;
+  font-weight: 900;
+  line-height: 80px;
+}
+
+div.concept-text > p > span {
+  font-size: 40px;
+  color: black;
+  font-weight: normal;
+}
+
+.img-inside {
+  position: relative;
+}
+
+#D3line {
+  position: absolute;
 }
 
 /* ref: http://cssdeck.com/labs/pure-css-tree-menu-framework */
