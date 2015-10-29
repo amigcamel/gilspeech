@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh">
 <head>
     <meta charset="utf-8" />
@@ -115,6 +115,7 @@
         <img src="http://blogs.msdn.com/cfs-filesystemfile.ashx/__key/communityserver-blogs-components-weblogfiles/00-00-01-43-73-metablogapi/5153.690px_2D00_Microsoft_5F00_SQL_5F00_Server_5F00_Logo.svg_5F00_65BA5131.png" width="40%">
         <img src="https://fatmintech.files.wordpress.com/2015/06/mariadb-seal-with-text.png" width="40%">
         <img src="http://3.bp.blogspot.com/-8K2hfmXK7Rs/VJBcTOhK4YI/AAAAAAAABxw/P0ob5IT2h5c/s1600/postgresql_logo-555px.png" width="40%">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/200px-SQLite370.svg.png">
     </div>
 
     <div class="step" data-x="3000" data-y="800" data-z="-2500" data-scale="5" data-rotate="10">
@@ -123,6 +124,22 @@
         <img src="http://blog.appdynamics.com/wp-content/uploads/2011/08/1605635.png" width="40%">
         <img src="http://journey-leveldb.jit.su/img/leveldb.png">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/500px-Cassandra_logo.svg.png" width="40%">
+    </div>
+
+    <div class="step" data-x="1500" data-y="-1500" data-z="-1500" data-scale=".5">
+        <div class="text-center">
+            <div class="show">誰在用<strong>非關聯式資料庫</strong>？
+            <p class="hide"><img src="http://thev.com.hk/wp-content/uploads/2014/09/facebook_logo1.png" width="50%"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="step" data-x="2500" data-y="-1500" data-z="-1500" data-scale=".5">
+        <div class="text-center">
+            <div class="show">誰還在用<strong>關聯式資料庫</strong>？
+            <p class="hide"><img src="http://thev.com.hk/wp-content/uploads/2014/09/facebook_logo1.png" width="50%"></p>
+            </div>
+        </div>
     </div>
 
     <div class="step slide" data-x="3000" data-y="-1500">
@@ -147,7 +164,7 @@
     </div>
 
     <div class="step slide" data-x="5000" data-y="-1500">
-        <iframe src="http://www.lingtelli.com:8003/" width="800" height="600"></iframe>
+        <iframe src="http://www.lingtelli.com:8003/" width="800" height="600" seamless="seamless" style="border:none"></iframe>
     </div>
 
     <div class="step" data-x="-2000" data-y="4500" data-z="-3000" data-rotate="30" data-scale="4">
@@ -208,7 +225,7 @@ if ("ontouchstart" in document.documentElement) {
     });
 
     $('.show').click(function() {
-        $(this).find('.hide').removeClass('hide')
+        $(this).find('.hide').fadeIn('slow').removeClass('hide')
     });
 
     Mousetrap.bind('o', function() {
