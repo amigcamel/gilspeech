@@ -38,14 +38,14 @@
 
 div.concept-text > p {
   font-size: 50px;
-  color: red;
+  /*color: red;*/
   font-weight: 900;
   line-height: 80px;
 }
 
 div.concept-text > p > span {
   font-size: 40px;
-  color: black;
+  /*color: black;*/
   font-weight: normal;
 }
 
@@ -53,9 +53,6 @@ div.concept-text > p > span {
   position: relative;
 }
 
-#D3line {
-  position: absolute;
-}
 
 /* ref: http://cssdeck.com/labs/pure-css-tree-menu-framework */
 .tree,
